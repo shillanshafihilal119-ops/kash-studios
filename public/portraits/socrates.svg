@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Socrates portrait">
+  <rect width="128" height="128" fill="#101218"/>
+  <circle cx="64" cy="49" r="25" fill="#d6c7a8"/>
+  <path d="M38 41c7-21 46-21 53 0-12-8-41-8-53 0z" fill="#ede7d7"/>
+  <path d="M43 70c11 14 31 14 42 0-2 19-40 19-42 0z" fill="#ede7d7"/>
+  <path d="M23 119c6-30 26-45 41-45s35 15 41 45" fill="#4b1f2f"/>
+  <path d="M52 51h5M72 51h5" stroke="#08090c" stroke-width="4" stroke-linecap="round"/>
+</svg>

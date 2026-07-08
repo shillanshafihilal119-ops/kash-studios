@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Friedrich Nietzsche portrait">
+  <rect width="128" height="128" fill="#101218"/>
+  <circle cx="64" cy="47" r="23" fill="#d8c0a0"/>
+  <path d="M39 42c8-22 44-22 50 0-14-9-35-9-50 0z" fill="#2b2624"/>
+  <path d="M42 63c9 9 35 9 44 0-5 15-39 15-44 0z" fill="#2b2624"/>
+  <path d="M26 119c7-31 24-46 38-46s31 15 38 46" fill="#4b1f2f"/>
+  <path d="M49 51l8 2M79 51l-8 2" stroke="#08090c" stroke-width="4" stroke-linecap="round"/>
+</svg>

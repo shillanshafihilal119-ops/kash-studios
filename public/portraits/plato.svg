@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Plato portrait">
+  <rect width="128" height="128" fill="#101218"/>
+  <circle cx="64" cy="48" r="24" fill="#d1b98f"/>
+  <path d="M38 36c10-22 42-22 52 0-16-6-36-6-52 0z" fill="#b89655"/>
+  <path d="M30 119c5-32 23-48 34-48s29 16 34 48" fill="#1d3a34"/>
+  <path d="M50 72c8 9 20 9 28 0" stroke="#08090c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M45 31h38" stroke="#ede7d7" stroke-width="3"/>
+</svg>
