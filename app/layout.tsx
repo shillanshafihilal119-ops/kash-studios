@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim() || "http://localhost:3000";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(siteUrl),
   title: "KASH STUDIOS | Freelance Web Developer",
   description:
     "Clean, mobile-friendly websites for small businesses, personal brands, landing pages, portfolios, and simple online stores.",
