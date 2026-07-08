@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim() || "http://localhost:3000";
+function getMetadataBase() {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+
+  try {
+    return new URL(siteUrl || "http://localhost:3000");
+  } catch {
+    return new URL("http://localhost:3000");
+  }
+}
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: getMetadataBase(),
   title: "KASH STUDIOS | Freelance Web Developer",
   description:
     "Clean, mobile-friendly websites for small businesses, personal brands, landing pages, portfolios, and simple online stores.",
